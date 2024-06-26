@@ -104,3 +104,25 @@ a:hover{
 .description:hover{
     color: crimson;
 }
+
+@media screen and (max-width: 768px) {
+    .container-home-1{
+        height: 80vh;
+        margin-top: 20px;
+        font-size: 50px;
+    }
+
+    .subTitle{
+        font-size: 40px;
+    }
+
+    .container-home-2{
+        position: static;
+        font-size: 20px;
+    }
+
+    .miniLogo{
+        margin-top: 0px;
+    }
+
+}
